@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/starter.css" />
+<title>The Badger Lab - Crypto staking service</title>
+  </head>
+  <body>
+    <header>
+       <div class="collapse" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-black">About</h4>
+              <!-- <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>  -->
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="text-black">Home</a></li>
+                <li><a href="staking.html" class="text-black">Staking</a></li>
+                <li><a href="about.html" class="text-black">About</a></li>
+                <li><a href="mailto:info@thebadgerlab.com" class="text-black">E-mail</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-black">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://twitter.com/lab_badger" class="text-black">Follow on Twitter</a></li>
+                <li><a href="mailto:info@thebadgerlab.com" class="text-black">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-light bg-light shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <!--<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>-->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="30"
+              viewBox="0 0 371.42 77.4"
+            >
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #231f20;
+                  }
+                </style>
+              </defs>
+              <title>logo-svg_1</title>
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="Layer_2-2" data-name="Layer 2">
+                  <path
+                    d="M363.38,36.08c-3.87-6.85-1-8.9-4.19-15.59C353.81,9.28,338.52,0,320.22,0c-23.56,0-36.8,18.54-63.08,20.2C291.23,19.66,292.27,2,320.26,2c25.81,0,37.73,16.6,38.15,22.13-9.22,7-20.71-4.26-38.86-1.71,0,0-3.56-8.12-8.81-7s-6.79,6-6.79,9.69c-5.54,1.84-26.81,16.17-47.8,17,29.29,2.57,28.14,18.85,45,11.9s26.83,1.61,45,1.61c14.5,0,23.82-3.94,25.23-11.29C371.92,41.62,366.57,41.75,363.38,36.08Zm-9.56,14.38c-3.63,2-23.14.91-29.55.56s-2.17-4-2.1-6.13-6.13-2.79-5.78-9.41c.45-8.57,6.69-10,13.87-8.78-3.49,2.78-5,8.22.62,10.17s9.3-4.5,14.88-4.43,13.36,4.78,14.75,9.17C356.82,45.1,357.44,48.44,353.82,50.46Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M0,.5H15.42V3.59H9.25V15.88H6.17V3.59H0Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M18,.5H21.1V6.67h9.25V.5h3.08V15.88H30.35V9.75H21.1v6.13H18Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M36,.5H51.45V3.59H39.12V6.67h9.25V9.75H39.12v3.09H51.45v3H36Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M199.5,62h3.08V74.35h12.33V77.4H199.5Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M217.51,65.11h3.09v3.08h9.25V65.11h3.08V77.4h-3.08V71.27H220.6V77.4h-3.09ZM220.6,62h9.25v3.09H220.6Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M235.53,62h12.34v3.09h-9.25v3.08h9.25v3.08h-9.25v3.08h9.25V77.4H235.53Zm12.34,3.09H251v3.08h-3.08Zm0,6.16H251v3.08h-3.08Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M.09,18.89H29.4v7.32h-22v7.33h22v7.33h-22v7.32h22v7.23H.09ZM29.4,26.21h7.32v7.33H29.4Zm0,14.66h7.32v7.32H29.4Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M42.91,26.21h7.32v7.33h22V26.21h7.33V55.42H72.21V40.87h-22V55.42H42.91Zm7.32-7.32h22v7.32h-22Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M85.72,18.89H115v7.32h-22v22h22v7.23H85.72ZM115,26.21h7.32v22H115Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M128.54,26.21h7.33v22h-7.33Zm7.33-7.32h29.3v7.32h-29.3Zm0,29.3h22v7.23h-22Zm7.32-14.65h22V48.19h-7.33V40.87H143.19Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M171.36,18.89H208v7.32H178.68v7.33h22v7.33h-22v7.32H208v7.23H171.36Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M214.17,18.89h29.31v7.32h-22v7.33h22v7.33h-22V55.42h-7.33Zm29.31,7.32h7.32v7.33h-7.32Zm0,14.66h7.32V55.42h-7.32Z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="container justify-content-between">
+      <div class="row min-vh-100 flex-column flex-md-row">
+        <aside
+          class="col-12 col-md-2 d-lg-block d-none p-0 bg-light flex-shrink-1 shadow-sm"
+        >
+          <nav
+            class="navbar navbar-expand navbar-light bg-light flex-md-column flex-row align-items-start py-2"
+          >
+            <div class="collapse navbar-collapse">
+              <ul
+                class="flex-md-column flex-row navbar-nav w-100 justify-content-between"
+              >
+                
+                <li class="nav-item">
+                  <a class="nav-link pl-0" href="/index.html"><span class="d-none d-md-inline font-weight-bold">Home</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0" href="#"><span class="d-none d-md-inline font-weight-bold">Staking</span></a>
+	                <ul class="nav w-100 justify-content-between pl-3">
+                    <li class="nav-item">
+                      <a class="nav-link pl-0" href="/staking.html"><span class="d-none d-md-inline">Validator addresses</span> </a>
+                    </li>
+                  </ul>
+                  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0" href="polkadot.html"><span class="d-none d-md-inline font-weight-bold">Polkadot</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0" href="#"><span class="d-none d-md-inline font-weight-bold">Elrond</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0" href="#"><span class="d-none d-md-inline font-weight-bold">Scrypta</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-0" href="#"><span class="d-none d-md-inline font-weight-bold">Ethereum</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </aside>
+        <main
+          class="col col-md-10 mx-auto my-lg-5 bg-faded py-lg-3 flex-grow-1"
+        >
+          <h1 class="mb-5">Validator services</h1>
+          <p>
+            You've successfully loaded up the Bootstrap npm starter project!
+          </p>
+          <h3 class="my-4">Validator address</h3>
+          <table
+            class="table table-striped table-bordered table-hover text-break"
+          >
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Crypto</th>
+                <th scope="col">Address</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              <tr>
+                <th scope="row">
+                  <a href="/staking/polkadot.html" class="">Polkadot</a>
+                </th>
+                <td>
+                  <code>12bSXHhe5qn7TCJms4EUNFUVA4jcPRa9FnJxGZBSJuLKJ9hy / polkadot-badger-validator-01</code>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <a href="#" class="">Elrond</a>
+                </th>
+                <td>
+                  <code>elrond-badger-validator-01</code>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <a href="#" class="">Scrypta</a>
+                </th>
+                <td>
+                  <code>scrypta-badger-validator-01</code>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <a href="#" class="">Ethereum</a>
+                </th>
+                <td>
+                  <code>In progress</code>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr class="my-5" />
+        </main>
+      </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+  </body>
+</html>
